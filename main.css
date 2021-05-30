@@ -1,0 +1,140 @@
+@font-face {
+	font-family: "Exo2-Medium";
+	src: url("../Exo2-Medium.ttf");
+}
+@font-face {
+	font-family: "Exo2-MediumItalic";
+	src: url("../Exo2-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Exo2-Bold";
+	src: url("../Exo2-Bold.ttf");
+}
+@font-face {
+	font-family: "Exo2-BoldItalic";
+	src: url("../Exo2-BoldItalic.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-size: cover;
+    vertical-align: middle;
+    color: black;
+    height: auto;
+    font-size:25px;
+     }
+
+header{
+    display: flex;
+    justify-content: space-around;
+   height: 80px;
+   background-color: black;
+    
+}
+
+.logo{
+        width: 250px;
+    float: left;
+    height: 80px;
+}
+.logo p {
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: white;
+       font-family:  "Exo2-Medium", sans-serif;
+}
+.logo a {
+    display: block;
+    margin-left: 15px;
+    margin-top: 10px;
+      font-family: "Exo2-Bold", sans-serif;
+    font-size: 28px;
+    color:  #b2aeb2;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.litle {
+    color: #aa064b;
+    
+}
+.baby {
+    color: #429595; 
+}
+.toys{
+    color:forestgreen;
+}
+.top-menu {
+    width: 685px;
+    height: 80px;
+    float: left;
+}
+.top-menu ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.top-menu ul li a {
+    display: block;
+    width: 171px;
+    text-decoration: none;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 17px;
+    color: white;
+    height: 55px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+.top-menu ul li a:hover {
+    transition: all 0.5s ease;
+    background: #00ADE4;
+}
+
+h1,h2 {
+    text-align: center;
+    font-size: 45px;
+     }
+.all{
+    background-color: blanchedalmond; 
+    }
+.osnovnoe{
+    margin-left: 15%;
+    margin-right:15% ;
+}
+
+
+img{ 
+    background-size: contain;
+    width: 250px;
+    height: 290px;
+
+}
+.text{
+    text-align: center;
+}
+.catalog{
+    width: 260px;
+    margin:10px;
+    border: 1px solid;
+    height:320px;
+    padding 5px;    
+}
+.top-catalog{
+    display: flex;
+     justify-content: space-around;
+}
+footer{
+   background-color: black;
+    color:white;
+    
+}
+.foterio{
+     margin-left: 20%;
+    margin-right:20% ; 
+    font-size: 15px;
+    text-align: center;
+}
